@@ -11,6 +11,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:5173",
+    "https://whimsical-parfait-dac91a.netlify.app/",
 ]
 
 app.add_middleware(
