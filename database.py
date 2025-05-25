@@ -5,7 +5,7 @@ import os
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://todo_app_render_database_user:s58imWEroNCc141heiJgsblFbwpfD2e1@dpg-cvn5p524d50c73ftpg3g-a.singapore-postgres.render.com/todo_app_render_database"
+    "postgresql://db_qtui_user:kTcS8SVLjEA5bLnTaiHPagxaQKXio9UD@dpg-d0papggdl3ps73ak05tg-a.singapore-postgres.render.com/db_qtui"
 )
 
 engine = create_engine(DATABASE_URL)
